@@ -12,7 +12,7 @@
 html, body { height: 100% }
 
 body { 
-font-family: sans-serif;
+font-family: american typewriter;
 background-color: black;
 color: white;
 
@@ -41,7 +41,7 @@ header {
   height: 220px;
   margin: 10px 8px;
 
-  background-color: black;
+  background-color: rgb(36, 54, 20);
 
   text-align: left;
 
@@ -82,8 +82,7 @@ article p {
 .sprite {
   width: 150px;
   height: 150px;
-  
-  background-image: url('../img/world_cup_sprites.jpeg');
+  background-image: url('img/soccer_sprites2.jpg');
 }
 
 #carol { background-position: -150px 0; }
@@ -94,6 +93,14 @@ article p {
 
 .sprite:hover { background-position-y: -150px !important; }
 
+
+.checked input {
+  margin: 0 10px 0;
+  
+}
+ {
+
+}
 /* footer rules here */
 footer {
   color: white;
