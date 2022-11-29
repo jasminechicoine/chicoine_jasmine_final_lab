@@ -16,7 +16,7 @@ font-family: sans-serif;
 background-color: black;
 color: white;
 
-background-image: url("../images/background.webp");
+background-image: url("../img/background.webp");
 background-repeat: no-repeat;
 background-size: contain;
 }
@@ -58,7 +58,7 @@ header {
 .red_bumper {
   width: 100%;
   height: 6px;
-  background-color: red;
+  background-color: rgb(0, 4, 255);
 }
 
 article { 
@@ -83,7 +83,7 @@ article p {
   width: 150px;
   height: 150px;
   
-  background-image: url('../images/world_cup_sprites.jpeg');
+  background-image: url('../img/world_cup_sprites.jpeg');
 }
 
 #carol { background-position: -150px 0; }
@@ -144,7 +144,7 @@ footer {
   font-weight: bolder;
 }
 
-.lightbox_close:hover { opacity: 0.5; color: red; }
+.lightbox_close:hover { opacity: 0.5; color: rgb(247, 247, 0); }
 
 .lightbox article {
   width: 55%;
@@ -160,5 +160,21 @@ footer {
   padding-top: 2em;
 }
 
+
+#lightbox1 {
+  background-image: url(img/brazil_flag.jpeg);
+}
+
+#lightbox2 { 
+  
+  background-image: url(img/portugal.jpeg); 
+
+}
+
 /* turn the lightbox on using the :target pseudo selector */
 .lightbox:target { display: block; }
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
