@@ -22,57 +22,75 @@
     <main>
         <nav id="character-nav">
             <ul class="characters">
-                <li>
+                <li class="checked">
                     <a href="#lightbox">
-                        <div class="sprite"></div>
+                        <div class="sprite">
+                            <img src="img/brazil_flag.jpeg" alt="brazil flag" width="150" height="150">
+                        </div>
                         <div class="red_bumper"></div>
                         <h5>Brazil</h5>
                     </a>
-                    <input type="checkbox"><span>checked</span>  
+                    <input type="checkbox"><span>selected</span>  
                 </li>
 
-                <li>
+                <li class="checked">
                     <a href="#lightbox">
-                        <div class="sprite" id="carol"></div>
+                        <div class="sprite" id="carol">
+                            <img src="img/cristiano_rinaldo.jpeg" alt="cristiano rinaldo" width="150" height="150">
+                        </div>
                         <div class="red_bumper"></div>
-                        <h5>Cristiano Rinaldo</h5>
+                        <h5>Rinaldo</h5>
                     </a>
+                    <input type="checkbox"><span>selected</span>
                     
                 </li>
 
-                <li>
+                <li class="checked">
                     <a href="#lightbox">
-                        <div class="sprite" id="clint"></div>
+                        <div class="sprite" id="clint">
+                            <img src="img/joao_cancelo.jpeg" alt="joao cancelo" width="150" height="150">
+                        </div>
                     <div class="red_bumper"></div>
                     <h5>Joao Cancelo</h5>
                 </a>
+                <input type="checkbox"><span>selected</span>
                     <!-- <img src="images/clint.jpeg" alt="hawkeye"> -->
                 </li>
 
-                <li>
-                    <a href="#lightbox">
-                        <div class="sprite" id="hulk"></div>
+                <li class="checked">
+                    <a href="#lightbox2">
+                        <div class="sprite" id="hulk">
+                            <img src="img/portugal.jpeg" alt="portugal flag" width="150" height="150">
+                        </div>
                         <div class="red_bumper"></div>
-                        <h5>Hulk</h5>
+                        <h5>Portugal</h5>
                     </a>
+                    <input type="checkbox"><span>selected</span>
                     <!-- <img src="images/hulk.jpeg" alt="hulk"> -->
                 </li>
 
-                <li>
+                <li class="checked">
                     <a href="#lightbox2">
-                        <div class="sprite" id="thor"></div>
+                        <div class="sprite" id="thor">
+                            <img src="img/neymar.jpeg" alt="neymar" width="150" height="150">
+                        </div>
+                                
                         <div class="red_bumper"></div>
-                        <h5>Thor</h5>
+                        <h5>Neymar</h5>
                     </a>
+                    <input type="checkbox"><span>selected</span>
                     <!-- <img src="images/thor.jpeg" alt="thor"> -->
                 </li>
 
-                <li>
-                    <a href="#lightbox">
-                        <div class="sprite" id="widow"></div>
+                <li class="checked">
+                    <a href="#lightbox2">
+                        <div class="sprite" id="widow">
+                            <img src="img/gabriel_jesus.jpeg" alt="gabriel jesus" width="150" height="150">
+                        </div>
                         <div class="red_bumper"></div>
-                        <h5>Black Widow</h5>
+                        <h5>Gabriel Jesus</h5>
                     </a>
+                    <input type="checkbox"><span style="color:rgb(0, 0, 0)"></span>selected</span>
                     <!-- <img src="images/widow.jpeg" alt="black widow"> -->
                 </li>
             </ul>
@@ -91,18 +109,33 @@
     </footer>
 
     <!-- lightbox goes here -->
-    <section class="lightbox" id="lightbox1">
+    <section class="lightbox" id="lightbox">
         <a href="" class="lightbox_close">x</a>
         <!-- hero image on the left, text on the right -->
         <!-- her image is a background image -->
         <article>
             <h3 class="lb_heading"> Brazil Football Team!</h3>
             <p class="lb_text">
-                This is the Portugal flag and the top two players on their football team!! Featuring Cristiano Rinaldo and Joao Cancelo. 
+                This is the Portugal flag and the top two players on their football team!! Pirtugal hjas neverwon the world cup yet unfortunately...
     <!--I know nothing about football lol -->
             </p>
             <p class="lb_text">
                 Featuring Cristiano Rinaldo and Joao Cancelo. 
+            </p>
+        </article>
+    </section>
+    <section class="lightbox" id="lightbox2">
+        <a href="" class="lightbox_close">x</a>
+        <!-- hero image on the left, text on the right -->
+        <!-- her image is a background image -->
+        <article>
+            <h3 class="lb_heading"> Brazil Football Team!</h3>
+            <p class="lb_text">
+                This is the Brazil flag and the top two players on their football team!! Brazil has won 5 world cups so far!
+    <!--I know nothing about football lol -->
+            </p>
+            <p class="lb_text">
+                Featuring Neymar and Gabriel Jesus
             </p>
         </article>
     </section>
